@@ -1,0 +1,10 @@
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\bin\Debug\DHIS.exe.config
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\bin\Debug\DHIS.exe
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\bin\Debug\DHIS.pdb
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\obj\Debug\DHIS.csproj.AssemblyReference.cache
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\obj\Debug\DHIS.csproj.CoreCompileInputs.cache
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\obj\Debug\DHIS.csproj.Up2Date
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\obj\Debug\DHIS.exe
+C:\Users\shang\OneDrive\Desktop\hmis\DHIS\obj\Debug\DHIS.pdb
