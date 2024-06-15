@@ -64,9 +64,10 @@ Partial Class Form5
         ' Panel1
         ' 
         Panel1.Controls.Add(TableLayoutPanel1)
-        Panel1.Location = New Point(21, 53)
+        Panel1.Location = New Point(179, 103)
+        Panel1.Margin = New Padding(4, 5, 4, 5)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(231, 156)
+        Panel1.Size = New Size(330, 260)
         Panel1.TabIndex = 0
         ' 
         ' TableLayoutPanel1
@@ -83,12 +84,13 @@ Partial Class Form5
         TableLayoutPanel1.Controls.Add(TextBox7, 1, 2)
         TableLayoutPanel1.Dock = DockStyle.Fill
         TableLayoutPanel1.Location = New Point(0, 0)
+        TableLayoutPanel1.Margin = New Padding(4, 5, 4, 5)
         TableLayoutPanel1.Name = "TableLayoutPanel1"
         TableLayoutPanel1.RowCount = 3
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 33.3333321F))
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 33.3333321F))
         TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 33.3333321F))
-        TableLayoutPanel1.Size = New Size(231, 156)
+        TableLayoutPanel1.Size = New Size(330, 260)
         TableLayoutPanel1.TabIndex = 0
         ' 
         ' Label1
@@ -97,9 +99,10 @@ Partial Class Form5
         Label1.BackColor = Color.PeachPuff
         Label1.Dock = DockStyle.Fill
         Label1.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(4, 1)
+        Label1.Location = New Point(5, 1)
+        Label1.Margin = New Padding(4, 0, 4, 0)
         Label1.Name = "Label1"
-        Label1.Size = New Size(108, 50)
+        Label1.Size = New Size(155, 85)
         Label1.TabIndex = 0
         Label1.Text = "Referrals"
         Label1.TextAlign = ContentAlignment.MiddleCenter
@@ -110,9 +113,10 @@ Partial Class Form5
         Label2.BackColor = Color.PeachPuff
         Label2.Dock = DockStyle.Fill
         Label2.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(119, 1)
+        Label2.Location = New Point(169, 1)
+        Label2.Margin = New Padding(4, 0, 4, 0)
         Label2.Name = "Label2"
-        Label2.Size = New Size(108, 50)
+        Label2.Size = New Size(156, 85)
         Label2.TabIndex = 1
         Label2.Text = "Referral In"
         Label2.TextAlign = ContentAlignment.MiddleCenter
@@ -122,9 +126,10 @@ Partial Class Form5
         Label3.AutoSize = True
         Label3.Dock = DockStyle.Fill
         Label3.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.Location = New Point(4, 52)
+        Label3.Location = New Point(5, 87)
+        Label3.Margin = New Padding(4, 0, 4, 0)
         Label3.Name = "Label3"
-        Label3.Size = New Size(108, 50)
+        Label3.Size = New Size(155, 85)
         Label3.TabIndex = 2
         Label3.Text = "Female"
         Label3.TextAlign = ContentAlignment.MiddleLeft
@@ -134,9 +139,10 @@ Partial Class Form5
         Label4.AutoSize = True
         Label4.Dock = DockStyle.Fill
         Label4.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label4.Location = New Point(4, 103)
+        Label4.Location = New Point(5, 173)
+        Label4.Margin = New Padding(4, 0, 4, 0)
         Label4.Name = "Label4"
-        Label4.Size = New Size(108, 52)
+        Label4.Size = New Size(155, 86)
         Label4.TabIndex = 3
         Label4.Text = "Male"
         Label4.TextAlign = ContentAlignment.MiddleLeft
@@ -144,17 +150,19 @@ Partial Class Form5
         ' TextBox6
         ' 
         TextBox6.Anchor = AnchorStyles.None
-        TextBox6.Location = New Point(147, 65)
+        TextBox6.Location = New Point(210, 114)
+        TextBox6.Margin = New Padding(4, 5, 4, 5)
         TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(52, 23)
+        TextBox6.Size = New Size(73, 31)
         TextBox6.TabIndex = 4
         ' 
         ' TextBox7
         ' 
         TextBox7.Anchor = AnchorStyles.None
-        TextBox7.Location = New Point(147, 117)
+        TextBox7.Location = New Point(210, 200)
+        TextBox7.Margin = New Padding(4, 5, 4, 5)
         TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(52, 23)
+        TextBox7.Size = New Size(73, 31)
         TextBox7.TabIndex = 4
         ' 
         ' Panel2
@@ -162,17 +170,19 @@ Partial Class Form5
         Panel2.BorderStyle = BorderStyle.FixedSingle
         Panel2.Controls.Add(Panel4)
         Panel2.Controls.Add(Panel3)
-        Panel2.Location = New Point(253, 53)
+        Panel2.Location = New Point(510, 103)
+        Panel2.Margin = New Padding(4, 5, 4, 5)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(292, 155)
+        Panel2.Size = New Size(416, 259)
         Panel2.TabIndex = 1
         ' 
         ' Panel4
         ' 
         Panel4.Controls.Add(TableLayoutPanel2)
-        Panel4.Location = New Point(0, 29)
+        Panel4.Location = New Point(0, 48)
+        Panel4.Margin = New Padding(4, 5, 4, 5)
         Panel4.Name = "Panel4"
-        Panel4.Size = New Size(289, 123)
+        Panel4.Size = New Size(413, 205)
         Panel4.TabIndex = 1
         ' 
         ' TableLayoutPanel2
@@ -193,12 +203,13 @@ Partial Class Form5
         TableLayoutPanel2.Controls.Add(TextBox5, 0, 1)
         TableLayoutPanel2.Dock = DockStyle.Fill
         TableLayoutPanel2.Location = New Point(0, 0)
+        TableLayoutPanel2.Margin = New Padding(4, 5, 4, 5)
         TableLayoutPanel2.Name = "TableLayoutPanel2"
         TableLayoutPanel2.RowCount = 3
         TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 33.3333321F))
-        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 33.3333321F))
-        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 33.3333321F))
-        TableLayoutPanel2.Size = New Size(289, 123)
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 27.4509811F))
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 39.705883F))
+        TableLayoutPanel2.Size = New Size(413, 205)
         TableLayoutPanel2.TabIndex = 0
         ' 
         ' Label6
@@ -206,9 +217,10 @@ Partial Class Form5
         Label6.BackColor = Color.PeachPuff
         Label6.Dock = DockStyle.Fill
         Label6.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label6.Location = New Point(4, 1)
+        Label6.Location = New Point(5, 1)
+        Label6.Margin = New Padding(4, 0, 4, 0)
         Label6.Name = "Label6"
-        Label6.Size = New Size(88, 39)
+        Label6.Size = New Size(128, 66)
         Label6.TabIndex = 0
         Label6.Text = "Outpatient"
         Label6.TextAlign = ContentAlignment.MiddleCenter
@@ -218,9 +230,10 @@ Partial Class Form5
         Label7.BackColor = Color.PeachPuff
         Label7.Dock = DockStyle.Fill
         Label7.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label7.Location = New Point(99, 1)
+        Label7.Location = New Point(142, 1)
+        Label7.Margin = New Padding(4, 0, 4, 0)
         Label7.Name = "Label7"
-        Label7.Size = New Size(89, 39)
+        Label7.Size = New Size(128, 66)
         Label7.TabIndex = 1
         Label7.Text = "In-patient"
         Label7.TextAlign = ContentAlignment.MiddleCenter
@@ -230,9 +243,10 @@ Partial Class Form5
         Label8.BackColor = Color.PeachPuff
         Label8.Dock = DockStyle.Fill
         Label8.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label8.Location = New Point(195, 1)
+        Label8.Location = New Point(279, 1)
+        Label8.Margin = New Padding(4, 0, 4, 0)
         Label8.Name = "Label8"
-        Label8.Size = New Size(90, 39)
+        Label8.Size = New Size(129, 66)
         Label8.TabIndex = 2
         Label8.Text = "Emergency"
         Label8.TextAlign = ContentAlignment.MiddleCenter
@@ -240,58 +254,65 @@ Partial Class Form5
         ' TextBox8
         ' 
         TextBox8.Anchor = AnchorStyles.None
-        TextBox8.Location = New Point(22, 90)
+        TextBox8.Location = New Point(32, 148)
+        TextBox8.Margin = New Padding(4, 5, 4, 5)
         TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(52, 23)
+        TextBox8.Size = New Size(73, 31)
         TextBox8.TabIndex = 4
         ' 
         ' TextBox1
         ' 
         TextBox1.Anchor = AnchorStyles.None
-        TextBox1.Location = New Point(117, 90)
+        TextBox1.Location = New Point(169, 148)
+        TextBox1.Margin = New Padding(4, 5, 4, 5)
         TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(52, 23)
+        TextBox1.Size = New Size(73, 31)
         TextBox1.TabIndex = 4
         ' 
         ' TextBox2
         ' 
         TextBox2.Anchor = AnchorStyles.None
-        TextBox2.Location = New Point(214, 90)
+        TextBox2.Location = New Point(307, 148)
+        TextBox2.Margin = New Padding(4, 5, 4, 5)
         TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(52, 23)
+        TextBox2.Size = New Size(73, 31)
         TextBox2.TabIndex = 4
         ' 
         ' TextBox3
         ' 
         TextBox3.Anchor = AnchorStyles.None
-        TextBox3.Location = New Point(214, 49)
+        TextBox3.Location = New Point(307, 79)
+        TextBox3.Margin = New Padding(4, 5, 4, 5)
         TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(52, 23)
+        TextBox3.Size = New Size(73, 31)
         TextBox3.TabIndex = 4
         ' 
         ' TextBox4
         ' 
         TextBox4.Anchor = AnchorStyles.None
-        TextBox4.Location = New Point(117, 49)
+        TextBox4.Location = New Point(169, 79)
+        TextBox4.Margin = New Padding(4, 5, 4, 5)
         TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(52, 23)
+        TextBox4.Size = New Size(73, 31)
         TextBox4.TabIndex = 4
         ' 
         ' TextBox5
         ' 
         TextBox5.Anchor = AnchorStyles.None
-        TextBox5.Location = New Point(22, 49)
+        TextBox5.Location = New Point(32, 79)
+        TextBox5.Margin = New Padding(4, 5, 4, 5)
         TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(52, 23)
+        TextBox5.Size = New Size(73, 31)
         TextBox5.TabIndex = 4
         ' 
         ' Panel3
         ' 
         Panel3.BorderStyle = BorderStyle.FixedSingle
         Panel3.Controls.Add(Label5)
-        Panel3.Location = New Point(-1, 1)
+        Panel3.Location = New Point(-1, 2)
+        Panel3.Margin = New Padding(4, 5, 4, 5)
         Panel3.Name = "Panel3"
-        Panel3.Size = New Size(290, 25)
+        Panel3.Size = New Size(413, 40)
         Panel3.TabIndex = 0
         ' 
         ' Label5
@@ -300,8 +321,9 @@ Partial Class Form5
         Label5.Dock = DockStyle.Fill
         Label5.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label5.Location = New Point(0, 0)
+        Label5.Margin = New Padding(4, 0, 4, 0)
         Label5.Name = "Label5"
-        Label5.Size = New Size(288, 23)
+        Label5.Size = New Size(411, 38)
         Label5.TabIndex = 0
         Label5.Text = "Referred Out"
         Label5.TextAlign = ContentAlignment.MiddleCenter
@@ -311,9 +333,10 @@ Partial Class Form5
         Label9.BackColor = Color.Silver
         Label9.BorderStyle = BorderStyle.FixedSingle
         Label9.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label9.Location = New Point(21, 230)
+        Label9.Location = New Point(256, 370)
+        Label9.Margin = New Padding(4, 0, 4, 0)
         Label9.Name = "Label9"
-        Label9.Size = New Size(199, 103)
+        Label9.Size = New Size(283, 170)
         Label9.TabIndex = 2
         Label9.Text = "Minimum Service Standard (MSS)"
         Label9.TextAlign = ContentAlignment.MiddleLeft
@@ -322,9 +345,10 @@ Partial Class Form5
         ' 
         Panel5.BorderStyle = BorderStyle.FixedSingle
         Panel5.Controls.Add(TableLayoutPanel3)
-        Panel5.Location = New Point(222, 230)
+        Panel5.Location = New Point(543, 370)
+        Panel5.Margin = New Padding(4, 5, 4, 5)
         Panel5.Name = "Panel5"
-        Panel5.Size = New Size(200, 103)
+        Panel5.Size = New Size(285, 170)
         Panel5.TabIndex = 3
         ' 
         ' TableLayoutPanel3
@@ -339,11 +363,12 @@ Partial Class Form5
         TableLayoutPanel3.Controls.Add(TextBox9, 1, 1)
         TableLayoutPanel3.Dock = DockStyle.Fill
         TableLayoutPanel3.Location = New Point(0, 0)
+        TableLayoutPanel3.Margin = New Padding(4, 5, 4, 5)
         TableLayoutPanel3.Name = "TableLayoutPanel3"
         TableLayoutPanel3.RowCount = 2
         TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
         TableLayoutPanel3.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
-        TableLayoutPanel3.Size = New Size(198, 101)
+        TableLayoutPanel3.Size = New Size(283, 168)
         TableLayoutPanel3.TabIndex = 0
         ' 
         ' Label10
@@ -351,9 +376,10 @@ Partial Class Form5
         Label10.BackColor = Color.Silver
         Label10.Dock = DockStyle.Fill
         Label10.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label10.Location = New Point(4, 1)
+        Label10.Location = New Point(5, 1)
+        Label10.Margin = New Padding(4, 0, 4, 0)
         Label10.Name = "Label10"
-        Label10.Size = New Size(130, 49)
+        Label10.Size = New Size(188, 82)
         Label10.TabIndex = 0
         Label10.Text = "Implementation    1-First               2-Second"
         ' 
@@ -362,9 +388,10 @@ Partial Class Form5
         Label11.BackColor = Color.Silver
         Label11.Dock = DockStyle.Fill
         Label11.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
-        Label11.Location = New Point(141, 1)
+        Label11.Location = New Point(202, 1)
+        Label11.Margin = New Padding(4, 0, 4, 0)
         Label11.Name = "Label11"
-        Label11.Size = New Size(53, 49)
+        Label11.Size = New Size(76, 82)
         Label11.TabIndex = 1
         Label11.Text = "Score"
         Label11.TextAlign = ContentAlignment.MiddleLeft
@@ -373,29 +400,31 @@ Partial Class Form5
         ' 
         ComboBox1.Anchor = AnchorStyles.Left
         ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(11, 64)
-        ComboBox1.Margin = New Padding(10, 3, 3, 3)
+        ComboBox1.Location = New Point(15, 109)
+        ComboBox1.Margin = New Padding(14, 5, 4, 5)
         ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(96, 23)
+        ComboBox1.Size = New Size(135, 33)
         ComboBox1.TabIndex = 2
         ' 
         ' TextBox9
         ' 
         TextBox9.Anchor = AnchorStyles.None
-        TextBox9.Location = New Point(141, 64)
+        TextBox9.Location = New Point(203, 110)
+        TextBox9.Margin = New Padding(4, 5, 4, 5)
         TextBox9.Name = "TextBox9"
-        TextBox9.Size = New Size(52, 23)
+        TextBox9.Size = New Size(73, 31)
         TextBox9.TabIndex = 4
         ' 
         ' Form5
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(1143, 750)
         Controls.Add(Panel5)
         Controls.Add(Label9)
         Controls.Add(Panel2)
         Controls.Add(Panel1)
+        Margin = New Padding(4, 5, 4, 5)
         Name = "Form5"
         Text = "Form5"
         WindowState = FormWindowState.Maximized

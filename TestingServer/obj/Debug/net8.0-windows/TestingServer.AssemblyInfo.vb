@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("TestingServer"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c8828f853fc9a156b722d4e303990a804e34aa3"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c206ab87e999d6a0c45582af7cc628ad48133543"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("TestingServer"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("TestingServer"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
